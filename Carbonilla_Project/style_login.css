@@ -1,0 +1,55 @@
+body {
+    background-image: url(imgfromfreepik.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:initial;
+}
+
+.login {
+    float: right;
+    background-color: #023047;
+    color: whitesmoke;
+    font-style: arial;
+    border-radius: 7px;
+    size: 25px;
+    width: 625px;
+    height: 300px;
+    margin-top: 180px;
+    margin-right: 20px;
+}
+input {
+    border-radius: 5px;
+}
+#username:hover{
+	background-color: #8ecae6;
+}
+#password:hover{
+	background-color: #8ecae6;
+}
+#missing {
+    margin-top: 45px;
+    color: red;
+}
+.intro {
+    float: left;
+    margin-top: 180px;
+    width: 400px;
+}
+footer {
+    font-size: small;
+    margin-top: auto;
+}
+#facebook {
+    width: 44px;
+    height: 44px;
+    background: url(imgsprte.png)-63px -10px;
+    border-radius: 67px;
+  }
+#twitter {
+    width: 44px;
+    height: 44px;
+    background: url(imgsprte.png)-322px -10px;
+    border-radius: 67px;}
